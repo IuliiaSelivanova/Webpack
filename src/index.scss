@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('fonts/OpenSans-Regular.woff') format('woff');
+}
+$color-border: rgb(204, 30, 59);
+body{
+    background-image: url(./img/island.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans';
+}
+
+.header{
+    width: 800px;
+    margin: 100px auto;
+    border: 5px solid $color-border;
+    border-radius: 20px;
+    &__title, &__info{
+        color: rgb(238, 125, 91);
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+}
+.gallery{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 300px;
+        margin-right: 30px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
