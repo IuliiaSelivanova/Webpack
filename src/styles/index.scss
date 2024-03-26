@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
-    url('fonts/OpenSans-Regular.woff') format('woff');
+    src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../assets/fonts/OpenSans-Regular.woff') format('woff');
 }
 $color-border: rgb(204, 30, 59);
 body{
-    background-image: url(./img/island.jpg);
+    background-image: url(../assets/img/island.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans';

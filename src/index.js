@@ -1,2 +1,4 @@
 import './index.html';
-import './index.scss';
+import './scripts/pages.js'
+import './styles/index.scss';
+import './styles/reset.css'

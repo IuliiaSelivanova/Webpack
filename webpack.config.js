@@ -7,7 +7,7 @@ module.exports = {
     output: {
         filename: "bundle.js",
         path: path.resolve(__dirname, "build"),
-        assetModuleFilename: 'assets/[name][ext]',
+        assetModuleFilename: 'assets/image/[name][ext]',
         clean: true,
     },
     plugins: [
@@ -43,7 +43,7 @@ module.exports = {
             test: /\.woff2?$/i,
             type: 'asset/resource',
             generator: {
-                filename: 'fonts/[name][ext]',
+                filename: 'assets/fonts/[name][ext]',
             }
           },
           {

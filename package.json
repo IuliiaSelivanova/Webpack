@@ -1,5 +1,5 @@
 {
-  "name": "productstar_webpack",
+  "name": "true_false_game",
   "version": "1.0.0",
   "description": "ProductStar task - lesson Webpack",
   "main": "index.js",
@@ -15,12 +15,9 @@
     "@babel/preset-env": "^7.23.9",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.10.0",
-    "eslint": "^8.56.0",
-    "eslint-plugin-react": "^7.33.2",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.8.0",
-    "prettier": "3.2.5",
     "sass": "^1.71.0",
     "sass-loader": "^14.1.1",
     "webpack": "^5.90.3",
@@ -28,7 +25,6 @@
     "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
-    "eslint-config-prettier": "^9.1.0",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^8.1.0"
   }
